@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.js"></script>
+    <script src="codey.js"></script>
+    <title>Codey Gonzales</title>
+  </head>
+  <body id='body'>
+    <h1>LET'S GO CODEY!!!</h1>
+    <div>
+      <pre><code>
+        class Contact <br>
+          constructor(name, email, button) {
+            this.name = name;
+            this.email = email;
+
+            button.onclick = function(event) {
+  	           sendEmail(this.email);
+             }
+           }<br>
+         }
+
+      </code>
+    </div>
+    <form>
+      Type:<br>
+      <textarea id="typed-text" rows="2" cols="50" type="text"></textarea>
+    </form><br>
+      <textarea id="entered-text" name="entered-text" rows="15" cols="50"></textarea>
+  </body>
+</html>
